@@ -1,0 +1,33 @@
+/* Paso 4: selector más específico para los párrafos */
+body p {
+    color: green;
+}
+
+body{
+    background-color: black;
+    color: white !important; /* Paso 2: !important */
+    font-family: Verdana;
+}
+
+h1 {
+    font-family: Arial;
+}
+
+a {
+    color: inherit;
+}
+
+div{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* Paso 1: declaración agregada al final */
+body {
+    color: red;
+}
+
+/* Paso 3: selector para los párrafos */
+p {
+    color: blue;
+}
